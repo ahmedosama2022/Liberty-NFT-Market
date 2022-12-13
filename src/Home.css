@@ -1,0 +1,448 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+body{
+  background-image: url(C:\Users\USER\reactapp\public\images\dark-bg.jpg);
+   
+}
+button{
+
+ transition: box-shadow 0.5s ease-in-out, border-color 0.5s ease-in-out;
+  }
+ 
+
+
+button:hover {
+   
+    color: #000;
+    box-shadow: 0 0 5px #4c00ff,
+                0 0 20px rgba(0, 153, 255, 0.8),
+                0 0 35px rgba(0, 140, 255, 0.7),
+                0 0 50px rgba(0, 140, 255, 0.733);
+    border-color: #fff;
+    color: white;
+}
+.Home .img1 {
+    background-size: cover;
+    width: 100%;
+    height: 1000px;
+   
+}
+.in1{
+    position: absolute;
+    z-index: -3;
+}
+.div1{
+    position: relative;
+    
+}
+.div1 h1{
+    font-weight: bold;
+}
+.btn .bt1{
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    border-radius: 25px;
+    margin-right: 10px;
+   font-weight: bold;
+    border:  2px solid #7453fc;
+    padding: 10px;
+}
+.btn .bt2{
+    background-color:#7453fc;
+    color: white;
+    border-radius: 25px;
+    margin-right: 30px;
+    border:  2px solid #7453fc;
+    padding: 10px;
+    font-weight: bold;
+}
+.bt2:hover{
+    background-color: white;
+    color:black;
+    transition: 2s;
+}
+.sec1{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+   top: 300px;
+  
+    color: white;
+}
+.swiper {
+    width: 500px; 
+    
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+   
+  
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .img3{
+    width: 100%;
+    position: relative;
+    top: 580px;
+  }
+  .dih1 span{
+    color: #7453fc;
+  }
+  .dih1 .hr{
+    border: 2px solid #7453fc;
+    width: 100px;
+    height: 2px;
+    background-color: #7453fc;
+    margin: 0 auto 30px auto;
+    position: relative;
+    top: 700px;
+  }
+  .dih1 h1{
+    align-items: center;
+    text-align: center;
+    position: relative;
+    top: 700px;
+    color: white;
+    
+  }
+  .div3{
+    position: absolute;
+  }
+  .sec4{
+    display: flex;
+    justify-content: space-between;
+
+    color: white;
+    position: relative;
+    top: 800px;
+  }
+  .item{
+    display: block;
+    background-color: #282b2f;
+    padding: 30px;
+    border-radius: 15px;
+    margin-left: 10px;
+  }
+  .item img{
+    width: 70px;
+    margin-bottom: 30px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 50px;
+  }
+  .div4{
+    position: relative;
+    top: 980px;
+  }
+  
+  .sec6 button:hover{
+    background-color: white;
+    color: black;
+    text-transform: capitalize;
+    letter-spacing: 0.5px;
+    transition: all .3s;
+  }
+  .sec6 button{
+    color: #fff;
+    border: 1px solid #fff;
+   position: relative;
+   align-items: center;
+   text-align: center;
+   line-height: 36px;
+   font-size: 25px;
+   
+   text-transform: capitalize;
+   color: #fff;
+    padding: 10px 20px;
+    background-color: #7453fc;
+    border-radius: 38px;
+  }
+  .sec6{
+    color: white;
+    position: relative;
+    top: 1200px;
+   background-image: url("file:///C:/Users/USER/Desktop/templatemo_577_liberty_market/assets/images/main-bg.jpg");
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-size: cover;
+   padding: 50px 30px;
+  }
+  .sec6 h1{
+    line-height: 36px;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #fff;
+  }
+  .infe h2{
+    line-height: 36px;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #fff;
+  }
+  .infe{
+    border-right: 2px solid rgba(255, 255, 255, 0.342);
+    padding-left: 20px;
+  }
+  .infe h6{
+    margin-right: 10px;
+  }
+  .infe img{
+    padding: 15px;
+    width: 62px;
+    height: 62px;
+    display: inline-block;
+    text-align: center;
+    line-height: 62px;
+    background-color: #fff;
+    border-radius: 50%;
+  }
+  .hr3{
+    width: 300px;
+    border: 1px solid white;
+  }
+  .secd{
+    display: flex;
+    justify-content: space-between;
+  }
+  .div7{
+    display: flex;
+    justify-content: space-between;
+  }
+  .sec7{
+    color: white;
+    
+    position: relative;
+    top: 1400px;
+   
+  }
+  .div5{
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+  }
+  .sec8 h5 {
+   text-decoration: none;
+  }
+  .sec8{
+    display: flex;
+    justify-content: space-between;
+    width: 550px;
+    padding-right: 10px;
+    
+    background-color: #282b2f;
+    border-radius: 18px;
+  }
+  .div99{
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 10px;
+  }
+  .hr3{
+    width: 250px;
+  }
+  .div99 img{
+    border-radius: 50%;
+    width: 50px;
+    height: 60px;
+  }
+  .se8 img{
+    height: 400px;
+    border-radius: 18px;
+  }
+  .sec44{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+  @media only screen and 
+  (max-width: 500px) {
+    .sec1{
+    display: block;
+    }
+    .Home .img1 {
+        background-size: cover;
+       height: 900px;
+    }
+    .sec1{
+        position: relative;
+       bottom: 700px;
+    }
+    .swiper{
+        width: 250px;
+    }
+    .img3{
+        height: 100vh;
+        width: 100%;
+    }
+    .sec4{
+        display: block;
+       align-items: center;
+       text-align: center;
+      
+    }
+    .item{
+        width: 200px;
+        margin-bottom: 50px;
+        position: relative;
+        bottom: 200px;
+        left: 70px;
+    }
+    .dih1{
+      position: relative;
+      bottom: 200px;
+    }
+    .secd{
+      display: block;
+    }
+    .div7{
+      display: block;
+    }
+    .sec44{
+      display: block;
+    }
+    .sec8{
+      position: relative;
+      right: 60px;
+      width: 480px;
+      margin-top: 20px;
+    }
+    .sec8 img{
+      width: 200px;
+    }
+    .div99 img{
+      border-radius: 50%;
+      width: 60px;
+      height: 60px;
+    }
+  }
+  .div99 img:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 19px rgb(116, 83, 252);
+    transition: 0.5s;
+  }
+  
+  
+  .dih1:hover {
+    box-shadow: 0 5px 35px 0px rgba(0,0,0,.1);
+  }
+  
+  .dih1:hover::before, .dih1:hover::after {
+  
+   
+    width: 100px;
+    height: 100px;
+    background: rgb(116, 83, 252);
+    border-radius: 50px;
+   
+    animation: 1s clockwise infinite;
+  }
+  
+  .dih1:hover:after {
+    background:  rgb(116, 83, 252);
+    animation: 2s counterclockwise infinite;
+  }
+  
+  @keyframes clockwise {
+    0% {
+      top: -5px;
+      left: 0;
+    }
+    12% {
+      top: -2px;
+      left: 2px;
+    }
+    25% {
+      top: 0;
+      left: 5px;    
+    }
+    37% {
+      top: 2px;
+      left: 2px;
+    }
+    50% {
+      top: 5px;
+      left: 0;    
+    }
+    62% {
+      top: 2px;
+      left: -2px;
+    }
+    75% {
+      top: 0;
+      left: -5px;
+    }
+    87% {
+      top: -2px;
+      left: -2px;
+    }
+    100% {
+      top: -5px;
+      left: 0;    
+    }
+  }
+  
+  @keyframes counterclockwise {
+    0% {
+      top: -5px;
+      right: 0;
+    }
+    12% {
+      top: -2px;
+      right: 2px;
+    }
+    25% {
+      top: 0;
+      right: 5px;    
+    }
+    37% {
+      top: 2px;
+      right: 2px;
+    }
+    50% {
+      top: 5px;
+      right: 0;    
+    }
+    62% {
+      top: 2px;
+      right: -2px;
+    }
+    75% {
+      top: 0;
+      right: -5px;
+    }
+    87% {
+      top: -2px;
+      right: -2px;
+    }
+    100% {
+      top: -5px;
+      right: 0;    
+    }
+  }

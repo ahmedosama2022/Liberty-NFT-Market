@@ -1,0 +1,186 @@
+.ex1 .bh1{
+    width: 180px;
+    height: 40px;
+    border: none;
+    border-radius: 25px;
+    background-color: #7453fc;
+    color: white;
+    transition: box-shadow 0.5s ease-in-out, border-color 0.5s ease-in-out;
+   
+}
+.ex1 .bh2{
+    width: 180px;
+    height: 40px;
+    border: none;
+    border-radius: 25px;
+    background-color: #7553fc25;
+    color: white;
+    transition: box-shadow 0.5s ease-in-out, border-color 0.5s ease-in-out;
+    
+  margin-left: 20px;
+}
+.ex1 .bh2:hover {
+   
+    color: #000;
+    box-shadow: 0 0 5px #4c00ff,
+                0 0 20px rgba(0, 153, 255, 0.8),
+                0 0 35px rgba(0, 140, 255, 0.7),
+                0 0 50px rgba(0, 140, 255, 0.733);
+    border-color: #fff;
+    color: white;
+}
+.ex1 .bh1:hover {
+   
+    color: #000;
+    box-shadow: 0 0 5px #4c00ff,
+                0 0 20px rgba(0, 153, 255, 0.8),
+                0 0 35px rgba(0, 140, 255, 0.7),
+                0 0 50px rgba(0, 140, 255, 0.733);
+    border-color: #fff;
+    color: white;
+}
+
+.sec23 h2{
+    text-align: center;
+    align-items: center;
+    color: white;
+    margin-top: 100px;
+}
+.sec33{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.sec33 .imk1{
+    width:100%;
+    height: 450px;
+   
+    border-radius: 30px;
+}
+.sec33 .imk2{
+    width: 50px;
+    height: 50px;
+    
+    border-radius: 50px;
+}
+.df{
+    display: flex;
+    justify-content: space-between;
+}
+.fgh{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}
+
+
+.sec33 button{
+    width: 180px;
+    height: 40px;
+    border: none;
+    border-radius: 25px;
+    background-color: #7453fc;
+    color: white;
+    transition: box-shadow 0.5s ease-in-out, border-color 0.5s ease-in-out;
+}
+
+.sec33 button:hover {
+   
+    color: #000;
+    box-shadow: 0 0 5px #4c00ff,
+                0 0 20px rgba(0, 153, 255, 0.8),
+                0 0 35px rgba(0, 140, 255, 0.7),
+                0 0 50px rgba(0, 140, 255, 0.733);
+    border-color: #fff;
+    color: white;
+}
+
+.sec63 h3{
+    background-color: #7453fc;
+    color: white;
+    padding: 8px;
+    text-align: center;
+    align-items: center;
+    border-radius: 25px;
+    
+}
+.sds{
+    display: flex;
+    justify-content: space-between;
+    
+    color: white;
+}
+.de1{
+     display: flex;
+  
+    color: white;
+}
+.sec43{
+    margin-top: 70px;
+}
+.ff{
+    background-color:#282b2f ;
+     padding: 20px;
+     border-top-right-radius: 25px;
+     border-bottom-right-radius: 25px;
+}
+.de1 img{
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+@media only screen and 
+(max-width: 500px) {
+    .df{
+        display: block;
+    }
+    .sec33 h5{
+        margin-top: 30px;
+    }
+    .sds{
+        display: block;
+    }
+    .de1{
+      margin-top: 10px;
+    }
+}
+.sec66{
+    color: white;
+    position: relative;
+    top: 70px;
+   background-image: url(C:\Users\USER\reactapp\public\images\main-bg.jpg);
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-size: cover;
+   padding: 50px 30px;
+  }
+  .sec66 button{
+    color: #fff;
+    border: 1px solid #fff;
+   position: relative;
+   align-items: center;
+   text-align: center;
+   line-height: 36px;
+   font-size: 25px;
+   
+   text-transform: capitalize;
+   color: #fff;
+    padding: 10px 20px;
+    background-color: #7453fc;
+    border-radius: 38px;
+    transition: box-shadow 0.5s ease-in-out, border-color 0.5s ease-in-out;
+  }
+ 
+
+
+ button:hover {
+   
+    color: #000;
+    box-shadow: 0 0 5px #4c00ff,
+                0 0 20px rgba(0, 153, 255, 0.8),
+                0 0 35px rgba(0, 140, 255, 0.7),
+                0 0 50px rgba(0, 140, 255, 0.733);
+    border-color: #fff;
+    color: white;
+    transform: scale(1.1);
+    transition: 0.5s;
+}

@@ -1,0 +1,53 @@
+.fg12 img{
+border-radius: 70%;
+}
+.fg12{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    width:350px;
+    text-align: center;
+    align-items: center;
+}
+.ico{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.ghk{
+    display: flex;
+    justify-content: space-between;
+}
+.ghk button{
+    background-color: #7453fc;
+    color: white;
+    width: 200px;
+    height: 40px;
+    border-radius: 25px;
+    text-align: center;
+    align-items: center;
+    border: none;
+}
+.hkl1{
+    display: block;
+    background-color: #1b1a1f;
+    border-radius: 25px;
+    padding: 30px;
+    color: white;
+    width: 450px;
+  
+}
+.sec51{
+    margin-top: 100px;
+}
+.f12{
+    color: white;
+    margin-top: 100px;
+}
+@media only screen and 
+(max-width: 500px) {
+    .hkl1{
+        margin-top: 50px;
+    }
+}
+

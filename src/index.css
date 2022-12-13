@@ -11,3 +11,20 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+button{
+
+  transition: box-shadow 0.5s ease-in-out, border-color 0.5s ease-in-out;
+   }
+  
+ 
+ 
+ button:hover {
+    
+     color: #000;
+     box-shadow: 0 0 5px #4c00ff,
+                 0 0 20px rgba(0, 153, 255, 0.8),
+                 0 0 35px rgba(0, 140, 255, 0.7),
+                 0 0 50px rgba(0, 140, 255, 0.733);
+     border-color: #fff;
+     color: white;
+ }

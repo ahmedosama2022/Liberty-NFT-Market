@@ -1,0 +1,48 @@
+.dfg{
+    color: white;
+   
+    margin-top: 70px;
+}
+.dfg h2{
+    text-align: center;
+    align-items: center;
+
+}
+
+.fg5{
+    color: white;
+    background-color: #37393c;
+    border-radius: 20px;
+    padding: 20px;
+}
+.fg5 .inpu{
+    
+    background-color: #282b2f;
+    border: 1px solid #404245;
+    border-radius: 25px;
+    padding: 15px;
+}
+
+.fg5 button{
+        width: 200px;
+        height: 40px;
+        border: none;
+        background-color: #7453fc;
+        color: white;
+        border-radius: 30px;
+        transition: box-shadow 0.5s ease-in-out, border-color 0.5s ease-in-out;
+        position: relative;
+        width: 100%;
+       top: 40px;
+       height: 50px;
+    }
+    .fg5 button:hover {
+       
+        color: #000;
+        box-shadow: 0 0 5px #4c00ff,
+                    0 0 20px rgba(0, 153, 255, 0.8),
+                    0 0 35px rgba(0, 140, 255, 0.7),
+                    0 0 50px rgba(0, 140, 255, 0.733);
+        border-color: #fff;
+        color: white;
+    }

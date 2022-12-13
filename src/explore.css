@@ -1,0 +1,219 @@
+.secc1{
+    color: white;
+    text-align: center;
+    align-items: center;
+   
+    background-image: url(C:\Users\USER\reactapp\public\images\heading-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding-top: 350px;
+    padding-bottom: 100px;
+}
+.secc1 .do{
+    position: relative;
+   text-align: center;
+   align-items: center;
+    bottom: 100px;
+}
+.swiperr{
+    position: relative;
+    bottom: 150px;
+}
+
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+  }
+  
+ 
+  
+  .container:hover .middle {
+    opacity: 1;
+  }
+  
+   
+  .fff{
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+  }
+  .fff span{
+    color: rgb(43, 137, 226);
+  }
+  .text {
+    background-color: #2d44a865;
+    color: white;
+    font-size: 16px;
+   width: 300px;
+   padding: 20px;
+   border-radius: 18px;
+   height: 200px;
+  }
+  .text img{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+  }
+  .swiperr .swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+   
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  
+  .swiper-slide .image {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+  }
+  .div55{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+  }
+
+ .div55 select{
+    text-align: center;
+    align-items: center;
+   width: 150px;
+   height: 50px;
+   padding-left: 10px;
+   border-radius: 25px;
+   background-color: rgba(240, 248, 255, 0.068);
+   color: white;
+ }
+ .hr5{
+    border: 2px solid #7453fc ;
+    width: 250px;
+ }
+  .div55 .in2{
+    color: white;
+    text-align: center;
+    align-items: center;
+   
+
+   width: 100px;
+   padding-left: 10px;
+   border-radius: 28px;
+   border: none;
+   background-color: #7453fc;
+  
+
+  }
+
+  .din11{
+    width: 350px;
+    padding: 20px;
+    background-color:#282b2f;
+    color: white;
+    border-radius: 30px;
+  }
+  .din11 .im2{
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  position: relative;
+ top: 20px;
+left: 130px;
+z-index: 1;
+  }
+  .din11 .im3{
+    border-radius: 20px;
+    position: relative;
+   
+    width: 300px;
+    height: 250px;
+  }
+  .dib{
+    display: flex;
+    justify-content: space-between;
+    
+  }
+.din11 button{
+    width: 200px;
+    height: 40px;
+    border: none;
+    background-color: #7453fc;
+    color: white;
+    border-radius: 20px;
+    transition: box-shadow 0.5s ease-in-out, border-color 0.5s ease-in-out;
+    position: relative;
+    top: 30px;
+    left: 40px;
+}
+.din11 button:hover {
+   
+    color: #000;
+    box-shadow: 0 0 5px #4c00ff,
+                0 0 20px rgba(0, 153, 255, 0.8),
+                0 0 35px rgba(0, 140, 255, 0.7),
+                0 0 50px rgba(0, 140, 255, 0.733);
+    border-color: #fff;
+    color: white;
+}
+
+.sec5b1{
+    background-image: url(C:\Users\USER\reactapp\public\images\main-bg.jpg);
+    color: white;
+    padding: 50px;
+}
+.ht{
+    text-align: center;
+    align-items: center;
+}
+.gh1{
+    display: flex;
+    justify-content: space-around;
+   
+}
+.gh1 img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+  @media only screen and 
+  (max-width: 500px) {
+    .div55{
+        display: block;
+    }
+    .din11{
+        margin-top: 30px;
+    }
+    .gh1{
+      margin-top: 20px;
+    }
+  }
