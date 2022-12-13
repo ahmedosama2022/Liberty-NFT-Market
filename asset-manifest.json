@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Liberty-NFT-Market/static/css/main.c279b8f8.css",
+    "main.js": "/Liberty-NFT-Market/static/js/main.902b23bd.js",
+    "static/js/787.5480e000.chunk.js": "/Liberty-NFT-Market/static/js/787.5480e000.chunk.js",
+    "static/media/dark-bg.jpg": "/Liberty-NFT-Market/static/media/dark-bg.610bdcdb7ffb44776eb2.jpg",
+    "static/media/heading-bg.jpg": "/Liberty-NFT-Market/static/media/heading-bg.ff2359e2adfaa8f0d667.jpg",
+    "static/media/main-bg.jpg": "/Liberty-NFT-Market/static/media/main-bg.78bcf5ff9198f0537177.jpg",
+    "index.html": "/Liberty-NFT-Market/index.html",
+    "main.c279b8f8.css.map": "/Liberty-NFT-Market/static/css/main.c279b8f8.css.map",
+    "main.902b23bd.js.map": "/Liberty-NFT-Market/static/js/main.902b23bd.js.map",
+    "787.5480e000.chunk.js.map": "/Liberty-NFT-Market/static/js/787.5480e000.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c279b8f8.css",
+    "static/js/main.902b23bd.js"
+  ]
+}
